@@ -23,6 +23,7 @@ env = environ.Env(
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
+print(f"\n {BASE_DIR} \n")
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
@@ -52,7 +53,7 @@ INSTALLED_APPS = [
     'drf_yasg',
     
     # Local apps
-    'listings',
+    'alx_travel_app.listings',
 
 ]
 
